@@ -7,9 +7,10 @@ The site's colours also respect the necessary contrast for reading. The app has 
 To start the server with port 3000, just type <br>
       ```
       node app.js
-      ```
- <br>     
-<br>The references used in this project are below:</p>
+    ```
+ on the terminal
+<br>     
+<br>The references used in this project are below:
 <br>
 ## Accessibility
 <p>

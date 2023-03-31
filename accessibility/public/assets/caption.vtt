@@ -1,0 +1,97 @@
+WEBVTT
+
+1
+00:00:01.510 --> 00:00:03.570 
+Quick accessibility test keyboard 
+
+2
+00:00:03.850 --> 00:00:04.290
+support.
+
+3
+00:00:06.570 --> 00:00:08.700
+Many people are unable to use a mouse or 
+
+4
+00:00:08.700 --> 00:00:10.690
+touch gestures due to limited arm 
+
+5
+00:00:10.990 --> 00:00:13.540
+movement and dexterity issues. Instead, 
+
+6
+00:00:14.070 --> 00:00:15.970
+they may rely on a keyboard or similar 
+
+7
+00:00:16.110 --> 00:00:18.320
+input device to navigate and operate 
+
+8
+00:00:18.430 --> 00:00:20.140
+digital content.To find out 
+
+9
+00:00:21.380 --> 00:00:23.400
+if your website is keyboard accessible, 
+
+10
+00:00:23.400 --> 00:00:25.640
+load the site and start navigating it by 
+
+11
+00:00:25.640 --> 00:00:27.510
+pressing the tab key on your keyboard.
+
+12
+00:00:28.560 --> 00:00:29.950
+You should be able to reach all 
+
+13
+00:00:29.950 --> 00:00:32.090
+actionable controls such as links, 
+
+14
+00:00:32.480 --> 00:00:34.120
+buttons and form fields.
+
+15
+00:00:35.680 --> 00:00:37.300
+Pressing the enter key or spacebar 
+
+16
+00:00:37.420 --> 00:00:38.820
+should activate these controls.
+
+17
+00:00:40.670 --> 00:00:42.100
+If any actionable element on your 
+
+18
+00:00:42.100 --> 00:00:44.210
+website is skipped, receives the focus 
+
+19
+00:00:44.650 --> 00:00:46.740
+in an illogical order, or you cannot see 
+
+20
+00:00:47.300 --> 00:00:49.100
+where the focus is at anytime, then 
+
+21
+00:00:49.410 --> 00:00:51.200
+keyboard support is not properly 
+
+22
+00:00:51.200 --> 00:00:51.950
+implemented.
+
+23
+00:00:56.370 --> 00:00:58.270
+To find out more about accessibility, 
+
+24
+00:00:58.270 --> 00:01:01.210
+visit our website at petrological.com.

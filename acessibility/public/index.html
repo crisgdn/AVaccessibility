@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+
+    <!-- Material Icons -->
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <title>Accessibility</title>
+  </head>
+
+
+<header id="top">
+    <h1 class="main-title">Accessibility</h1>
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="#main" class="skiplink">Skip to main content</a></li>
+        <li><a href="#audio-content">Audio</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#form-field">Form Field</a></li> 
+        <li><a href="#img-caption">Image</a></li>
+        
+        
+      </ul>
+    </nav>
+</header>
+<!-- <section id="top"></section> -->
+
+<main id="main">
+  <!--AUDIO ACCESSIBILITY section-->
+  <section id="audio-content">
+    <div class="container">
+      <h2 class="section-title">Accessibility of Audio Content</h2>
+      <p>The <code>audio</code> can be played and <code>control</code>just using the keyboard. </p>
+      <audio controls>
+        <source src="images/Jazz at Mladost Club - Blue bossa.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <br>
+    <button><a href="#top">Return to top</a></button>
+  </section>
+
+   <!-- Accessibility of video section-->
+   <section id="video">
+    <h2 class="section-title">Accessibility of Video Content</h2>
+    <video controls poster="images/keyboard_support.jpg" aria-label="View From Video Quick accessibility test: Keyboard support">
+    <source src="images/Quick accessibility test_ Keyboard support (British Sign Language version).mp4" type="video/mp4">
+      <track kind="captions" label="English" srclang="en" src="images/caption.vtt" default>
+      <track kind="descriptions" label="English Descriptions" srclang="en" src="images/description.vtt">
+      <a href="images/Quick accessibility test_ Keyboard support (British Sign Language version).mp4" download>Download</a> 
+    </video>
+    <p>The video is a test of the native <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">HTML <code>video</code> player</a> accessibility support.</p>
+    
+    <p>Transcription</p>
+    <textarea rows="20" cols="100">
+      1
+      00:00:01.510 --> 00:00:03.570 
+      Quick accessibility test keyboard 
+      
+      2
+      00:00:03.850 --> 00:00:04.290
+      support.
+      
+      3
+      00:00:06.570 --> 00:00:08.700
+      Many people are unable to use a mouse or 
+      
+      4
+      00:00:08.700 --> 00:00:10.690
+      touch gestures due to limited arm 
+      
+      5
+      00:00:10.990 --> 00:00:13.540
+      movement and dexterity issues. Instead, 
+      
+      6
+      00:00:14.070 --> 00:00:15.970
+      they may rely on a keyboard or similar 
+      
+      7
+      00:00:16.110 --> 00:00:18.320
+      input device to navigate and operate 
+      
+      8
+      00:00:18.430 --> 00:00:20.140
+      digital content.To find out 
+      
+      9
+      00:00:21.380 --> 00:00:23.400
+      if your website is keyboard accessible, 
+      
+      10
+      00:00:23.400 --> 00:00:25.640
+      load the site and start navigating it by 
+      
+      11
+      00:00:25.640 --> 00:00:27.510
+      pressing the tab key on your keyboard.
+      
+      12
+      00:00:28.560 --> 00:00:29.950
+      You should be able to reach all 
+      
+      13
+      00:00:29.950 --> 00:00:32.090
+      actionable controls such as links, 
+      
+      14
+      00:00:32.480 --> 00:00:34.120
+      buttons and form fields.
+      
+      15
+      00:00:35.680 --> 00:00:37.300
+      Pressing the enter key or spacebar 
+      
+      16
+      00:00:37.420 --> 00:00:38.820
+      should activate these controls.
+      
+      17
+      00:00:40.670 --> 00:00:42.100
+      If any actionable element on your 
+      
+      18
+      00:00:42.100 --> 00:00:44.210
+      website is skipped, receives the focus 
+      
+      19
+      00:00:44.650 --> 00:00:46.740
+      in an illogical order, or you cannot see 
+      
+      20
+      00:00:47.300 --> 00:00:49.100
+      where the focus is at anytime, then 
+      
+      21
+      00:00:49.410 --> 00:00:51.200
+      keyboard support is not properly 
+      
+      22
+      00:00:51.200 --> 00:00:51.950
+      implemented.
+      
+      23
+      00:00:56.370 --> 00:00:58.270
+      To find out more about accessibility, 
+      
+      24
+      00:00:58.270 --> 00:01:01.210
+      visit our website at petrological.com.
+    </textarea>
+      <br><br>
+      <button><a href="#top">Return to top</a></button>
+   </section>
+
+
+
+  <!-- FORM FIELD ACCESSIBILITY section-->
+<section id="form-field">
+  <div class="container">
+    <h2 class="section-title">Form Field Accessibility</h2>
+    <form action="">
+      <label for="fname">First name: </label>
+      <input type="text" name="fname" id="fname" placeholder="John" required><br><br>
+      <label for="lname">Last Name: </label>
+      <input type="text" name="lname" id="lname" placeholder="Doe" required><br><br>
+      <label for="eaddress">Email Address: </label>
+      <input type="email" name="eaddress" id="eaddress" placeholder="example@example.com" required><br><br>
+      <!-- Submit Button-->
+      <input class="submit" type="submit" value="Submit">
+    </form>
+  </div>
+  <br>
+  <button><a href="#top">Return to top</a></button>
+  </section>
+    
+  <!-- PHOTO CAPTION ACCESSIBILITY section-->
+  <section id="img-caption">        
+  <div class="container">
+    <h2 class="section-title">Image Accessibility</h2>
+    <p>This section will demostrate how to make images accessible by using the elements <code>figure</code>
+      and
+      <code>figcaption</code>. Also make sure you add an <code>alt</code> to the img tag so there is a
+      text
+      alternative just incase the image does not load.</p>  
+    <figure>
+      <img src="https://archive.org/download/NIX-PIA04200/PIA04200.jpg" alt="Picture of Doradus Nebula by NASA. ">
+      <figcaption>Doradus Nebula</figcaption>
+    </figure>
+  </div>
+  <br>
+  <button><a href="#top">Return to top</a></button>
+</section>
+</main>
+<footer>
+
+</footer>
+
+
+
+
+
+
